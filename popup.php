@@ -1,4 +1,3 @@
-<!-- jsでAPI叩いて地雷タグをユーザごとに表示しようと奮闘したコード_実際に使うver -->
 <!DOCTYPE html>
 <html lang="en">
 
