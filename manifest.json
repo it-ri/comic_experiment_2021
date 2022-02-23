@@ -1,0 +1,18 @@
+{
+  "name": "地雷フラグ付与実験システム(git用)",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["https://shonenjumpplus.com/episode/*"],
+    "js": [
+      "content.js" ,"popup.js"
+    ]
+  }],
+  "permissions":[
+    "https://shonenjumpplus.com/episode/*","tabs"
+  ],
+  "browser_action": {
+    "default_title": "地雷フラグ付与実験システム(git用)",
+    "default_popup": "popup.html"
+  }
+}
